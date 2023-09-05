@@ -37,9 +37,9 @@ Java Runtime Environment — минимальная (без компилятор
 ## Логирование
 
 В текущей версии настроено 2 уровня логирования INFO, ERROR.
-Логи пишутся в файл ${project.basedir}/logs/log
+Логи пишутся в файл `${project.basedir}/logs/log`
 Также выводятся в консоль.
-При достижении размера файла лога в 10Mb - он перемещается в архив ${project.basedir}/logs/archived/ с наименованием в
+При достижении размера файла лога в 10Mb - он перемещается в архив `${project.basedir}/logs/archived/` с наименованием в
 формате
 
 beautiful-code-yyyy-MM-dd HH:mm:ss, где:
